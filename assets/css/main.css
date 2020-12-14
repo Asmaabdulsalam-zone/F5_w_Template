@@ -1,0 +1,419 @@
+/*#111A21 #A9081C #d77f69 #ff544a #fe0034*/
+.paragraph, .title, .introservice .title, .introproduct .title, .introabout .title, .home p, .home button, .ourabout .innerdiv p {
+  margin-bottom: 5%;
+  letter-spacing: 1px;
+  line-height: 1.7; }
+
+.inner, .introservice .inner, .introproduct .inner, .introabout .inner {
+  font-size: 1.5rem;
+  color: #aca19e;
+  font-weight: bold;
+  margin-top: 200px;
+  padding: 2.5%;
+  display: inline-block;
+  background-color: #020305a3; }
+
+.title, .introservice .title, .introproduct .title, .introabout .title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1.3%; }
+
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+.container, .container-fluid, .row {
+  /* padding: 0!important;
+   margin: 0!important;*/ }
+
+body {
+  overflow-x: hidden;
+  background: #17181c;
+  font-family: "Lato", sans-serif;
+  color: #aca19e; }
+
+.navbar {
+  text-transform: uppercase;
+  background: #020305a3 !important;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  font-size: 1rem;
+  font-weight: 900; }
+  .navbar .navbar-brand {
+    font-family: 'El Messiri', sans-serif;
+    font-weight: 700;
+    color: #d77f69 !important;
+    font-size: 1.7rem;
+    letter-spacing: 0.1rem;
+    margin-left: 1%; }
+  .navbar .navbar-nav {
+    margin-right: 3%; }
+    .navbar .navbar-nav .nav-item {
+      margin-right: 1.5%; }
+      .navbar .navbar-nav .nav-item .active {
+        color: #d77f69 !important; }
+    .navbar .navbar-nav .nav-link {
+      color: #aca19e !important; }
+      .navbar .navbar-nav .nav-link:hover {
+        color: #d77f69 !important; }
+    .navbar .navbar-nav .nav-link.active {
+      color: #d77f69 !important; }
+  @media (min-width: 768px) {
+    .navbar {
+      height: 4rem; } }
+
+/*-------------------------------*/
+.home .homecontent {
+  position: absolute;
+  top: 54%;
+  left: 26%;
+  transform: translate(-50%, -50%);
+  overflow: hidden; }
+  @media (max-width: 767px) {
+    .home .homecontent {
+      top: 23%;
+      left: 37%; } }
+  @media (min-width: 768px) {
+    .home .homecontent {
+      top: 30%;
+      left: 36%; } }
+  @media (min-width: 992px) {
+    .home .homecontent {
+      top: 40%;
+      left: 27%; } }
+  @media (min-width: 1200px) {
+    .home .homecontent {
+      top: 54%;
+      left: 26%; } }
+.home h2 {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: uppercase; }
+  @media (max-width: 767px) {
+    .home h2 {
+      font-size: 0.7rem; } }
+  @media (min-width: 768px) {
+    .home h2 {
+      font-size: 1rem; } }
+  @media (min-width: 992px) {
+    .home h2 {
+      font-size: 1.2rem; } }
+  @media (min-width: 1200px) {
+    .home h2 {
+      font-size: 1.5rem;
+      line-height: 1.2; } }
+.home span.homespan {
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: #d77f69;
+  margin: 5% 0; }
+  @media (max-width: 768px) {
+    .home span.homespan {
+      width: 30px;
+      height: 2px; } }
+.home p {
+  line-height: 1.6; }
+  @media (max-width: 767px) {
+    .home p {
+      font-size: 0.53rem; } }
+  @media (min-width: 768px) {
+    .home p {
+      font-size: 0.7rem; } }
+  @media (min-width: 992px) {
+    .home p {
+      font-size: 0.8rem; } }
+  @media (min-width: 1200px) {
+    .home p {
+      font-size: 1rem; } }
+.home button {
+  background: none;
+  color: #d77f69;
+  border: 2px solid #d77f69;
+  text-transform: uppercase;
+  font-size: 1rem;
+  font-weight: 900;
+  padding: 13px 40px;
+  outline: 0;
+  cursor: pointer; }
+  .home button:hover {
+    border: 2.5px solid #d77f69; }
+  @media (max-width: 767px) {
+    .home button {
+      font-size: 0.5rem;
+      padding: 8px 20px; } }
+  @media (min-width: 768px) {
+    .home button {
+      font-size: 0.7rem;
+      padding: 10px 25px; } }
+  @media (min-width: 992px) {
+    .home button {
+      font-size: 0.8rem;
+      padding: 13px 40px; } }
+  @media (min-width: 1200px) {
+    .home button {
+      font-size: 1rem;
+      padding: 13px 40px; } }
+
+/*--------------------------------*/
+.about {
+  margin: 5% 0; }
+  .about h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 3%; }
+    @media (min-width: 992px) {
+      .about h1 {
+        font-size: 2.7rem; } }
+  .about p {
+    font-size: 1.3rem;
+    line-height: 1.5;
+    margin-bottom: 5%; }
+  .about span {
+    font-size: 1.2rem; }
+  .about img {
+    width: 100%;
+    margin-bottom: 5%; }
+  .about .main {
+    background-image: url("../img/about/img1.jpg");
+    height: 640px;
+    margin-left: 7%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin-bottom: 5%; }
+    .about .main p {
+      position: absolute;
+      bottom: 0;
+      margin: 0;
+      background-color: #020305a3;
+      font-size: 19px;
+      padding: 5%; }
+  .about .nested {
+    margin-bottom: 5%; }
+    .about .nested img {
+      height: 187px; }
+      @media (max-width: 768px) {
+        .about .nested img {
+          height: 270px; } }
+
+.service {
+  margin-top: 7%;
+  width: 100%;
+  height: 500px;
+  background: url(../img/intro_images/introcontact_service.jpg) no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  margin: 5% 0; }
+  .service p {
+    font-size: 1.5rem;
+    color: #aca19e;
+    font-weight: bold;
+    margin-top: 15%;
+    padding: 5%;
+    display: inline-block;
+    background-color: #020305a3; }
+
+.product {
+  width: 100%;
+  height: auto;
+  padding: 50px 0; }
+
+.choose {
+  width: 100%;
+  height: auto;
+  padding: 120px 0;
+  margin: 5% 0;
+  background: #aca19e; }
+  .choose i {
+    float: left;
+    position: relative;
+    top: 20px;
+    width: 20px;
+    margin: 0;
+    color: #17181c; }
+  .choose .part {
+    float: left;
+    width: 80%;
+    margin-left: 14%; }
+  .choose h2 {
+    margin: 0;
+    color: #020305;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    margin: 5% 0; }
+  .choose p {
+    margin: 0;
+    color: #17181c;
+    margin-top: 5%;
+    font-size: 1.2rem; }
+
+footer {
+  width: 100%;
+  height: auto; }
+  footer p {
+    font-size: 1.3rem !important;
+    margin: 2% 0 !important; }
+  footer i {
+    margin: 0 .5% !important;
+    color: #aca19e !important; }
+    footer i:hover {
+      color: #d77f69 !important; }
+
+/*------------- service page -----------------*/
+.introservice {
+  margin: 5% 0;
+  margin-top: 63px;
+  width: 100%;
+  height: 520px;
+  background: url("../img/intro_images/introcontact_service.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+
+.ourwork {
+  margin: 5% 0; }
+  .ourwork .innerdiv {
+    margin: 0 5% 7%; }
+    .ourwork .innerdiv i {
+      margin-bottom: 4%; }
+      .ourwork .innerdiv i:hover {
+        color: #d77f69; }
+    .ourwork .innerdiv h3 {
+      font-weight: bold;
+      font-size: 1.7rem;
+      margin-bottom: 2%;
+      margin-top: 1% !important; }
+    .ourwork .innerdiv p {
+      font-size: 1.2rem;
+      margin-bottom: 1.3%;
+      letter-spacing: 0px; }
+
+/*------------- Product Page -----------------*/
+.introproduct {
+  margin: 5% 0;
+  margin-top: 63px;
+  width: 100%;
+  height: 520px;
+  background: url("../img/intro_images/introproduct.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+
+.innerdiv {
+  margin: 5%; }
+  .innerdiv h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 15% 0 3% !important; }
+    @media (max-width: 768px) {
+      .innerdiv h3 {
+        margin: 3% 0 3% !important; } }
+  .innerdiv p {
+    font-size: 1.2rem;
+    line-height: 1.5; }
+  @media (max-width: 768px) {
+    .innerdiv {
+      margin: 5% 0; } }
+
+/*------------- About Page -----------------*/
+.introabout {
+  margin: 5% 0;
+  margin-top: 63px;
+  width: 100%;
+  height: 520px;
+  background: url("../img/intro_images/introabout.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+
+.ourabout {
+  margin-top: -4%; }
+  .ourabout .innerdiv {
+    margin: 0%; }
+    .ourabout .innerdiv p {
+      font-size: 1.2rem;
+      line-height: 1.5;
+      width: 100%;
+      margin: 0;
+      text-justify: auto;
+      margin-bottom: 5%; }
+
+/*------------- Contact Page -----------------*/
+.introcontact {
+  margin: 5% 0;
+  margin-top: 63px;
+  width: 100%;
+  height: 520px;
+  background: url("../img/intro_images/introcontact_service.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center; }
+
+.ourinfo {
+  margin: 5% 0; }
+  .ourinfo .title {
+    font-size: 2rem !important; }
+  .ourinfo p {
+    font-size: 1.2rem; }
+  .ourinfo ul {
+    list-style: none; }
+  .ourinfo li {
+    margin: 5% 0 0;
+    font-size: 1.2rem; }
+    .ourinfo li i {
+      margin: 0 5% 0 0;
+      font-size: 1.5rem; }
+    .ourinfo li a {
+      color: #aca19e;
+      cursor: pointer;
+      text-decoration-line: underline; }
+      .ourinfo li a:hover {
+        color: #d77f69; }
+  .ourinfo .form-group, .ourinfo .btn {
+    font-weight: bold;
+    font-size: 1rem; }
+    .ourinfo .form-group input, .ourinfo .form-group textarea, .ourinfo .btn input, .ourinfo .btn textarea {
+      color: #aca19e;
+      background-color: #17181c;
+      border: solid 3px #aca19e;
+      outline: 0; }
+      .ourinfo .form-group input:hover, .ourinfo .form-group input:active, .ourinfo .form-group input:focus, .ourinfo .form-group textarea:hover, .ourinfo .form-group textarea:active, .ourinfo .form-group textarea:focus, .ourinfo .btn input:hover, .ourinfo .btn input:active, .ourinfo .btn input:focus, .ourinfo .btn textarea:hover, .ourinfo .btn textarea:active, .ourinfo .btn textarea:focus {
+        border-color: #d77f69; }
+      .ourinfo .form-group input:focus, .ourinfo .form-group textarea:focus, .ourinfo .btn input:focus, .ourinfo .btn textarea:focus {
+        box-shadow: #d77f69; }
+  .ourinfo .form-control {
+    font-size: 1rem; }
+  .ourinfo .custom-alert {
+    background: none;
+    border: 0;
+    font-size: 1rem;
+    color: #ff0018;
+    margin: 1% 0;
+    padding: 1%;
+    display: none; }
+  .ourinfo .mapdiv {
+    margin: 5% 0;
+    margin-top: 63px;
+    width: 100%;
+    height: 520px;
+    background: url("../img/contact/map.PNG") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    background-attachment: unset; }
+
+.fade {
+  transition: opacity .30s linear; }
+
+/*# sourceMappingURL=main.css.map */
